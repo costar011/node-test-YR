@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, "/assets")));
 
 // 사용자가 "/"을 요청하면 res 을 통하여 웹페이지를 응답.
 app.get("/", (req, res) => {
-  res.render("");
+  res.render("test");
 });
 
 // 설정 끝난 후 Server Start
